@@ -1,0 +1,345 @@
+body,html{
+    background-image: url(university1.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+body image{
+    width: 100%;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.photo img{
+    width: 100%;
+    position: fixed;
+    margin-top: -45px;
+    z-index: 1;
+}
+.headings p{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+.con1{
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, transparent);
+    z-index: 6;
+    padding: 15px;
+    font-size: 25px;
+}
+.con1 a{
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+}
+.con1 p{
+    display: inline;
+    margin: 0%;
+    margin-left: 24%;
+}
+.con1 a{
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+.con1 a::after{
+    content: "";
+    position: absolute;
+    top: 1px;
+    height: 4px;
+    width: 80%;
+    left: 12px;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.con1 a:hover::after{
+    transform: scaleX(1);
+}
+.con1 input{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 3px;
+    color: black;
+    padding-left: 3px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    opacity: 70%;
+    z-index: 6;
+}
+.con1 input:hover{
+    background-color: lightgray;
+}
+.con2{
+    text-align: center;
+    position: fixed;
+    margin-top: 5%;
+    z-index: 6;
+    width: 100%;
+}
+.con2 a{
+    text-decoration: none  ;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px;
+    text-align: center;
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+.con2 a::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.con2 a:hover::after{
+    transform: scaleX(1);
+}
+.nav.active .con1{
+    background-color: #B90E28;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    background-image: linear-gradient(to bottom, #B90E28, transparent);
+}
+.nav.active .con1 a{
+    text-decoration:  none;
+    color: white;
+    margin: 5px;
+}
+.nav.active .con2{
+    background-color: white;
+    text-align: center;
+    margin-top: 59px;
+    position: fixed;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    z-index: 6;
+    width: 100%;
+    padding: 15px;
+}
+.nav.active .con2 a{
+    text-decoration: none  ;
+    color: black;
+    font-size: 23px;
+    font-weight: 100;
+    margin: 15px;
+    text-align: center;
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+.nav.active .con2 a::after{
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    background-color: #B90E28;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.nav.active .con2 a:hover::after{
+    transform: scaleX(1);
+}
+
+.sub{
+    margin: 0px;
+    font-size: medium;
+}
+.sub2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: -50%;
+}
+
+.headings{
+    z-index: 3;
+    position: absolute;
+    color: white;
+    margin-top: 15%;
+    text-align: center;
+    width: 100%;
+    font-size: 160px;
+}
+.con3{
+    background-color: #B90E28;
+    margin-top: 43.8%;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    color: white;
+    
+}
+.social{
+    text-align: right;
+    width: 100%;
+    z-index: 3;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px; 
+    position: absolute;
+    margin-top:283%;
+
+}
+.social a{
+    color: black;
+    margin-right: 25px;
+    
+}
+.fa-instagram:hover{
+    color: #ed0973;
+}
+.fa-youtube:hover{
+    color: #fa0000;
+}
+.fa-linkedin:hover{
+    color: #0959ed;
+}
+.fa-twitter:hover{
+    color: #09bfed;
+}
+
+.mission, .news, .academic{
+    padding: 5%;
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    margin-top: 49%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;   
+}
+.mission button, .news button, .academic button{
+    padding: 15px; 
+    font-size: 18px; 
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: bold; 
+    color: white; 
+    background-color: #B90E28; 
+    border: none;
+}
+
+.news{
+    background-color: rgb(237, 237, 237);
+    margin-top: 87%;
+    width: 90%;
+}
+
+.news .news1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    width: 22%;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(158, 158, 158);
+}
+.news .news1 {
+    margin: 15px;
+    overflow: hidden;
+}
+.news1 img{
+    width: 100%;
+    display: block;
+    transform: .3s;
+    margin-right: 100%;
+    height: auto; 
+}
+.news .news1 p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.news .news1 img:hover{
+    scale: 1.1;
+}
+.in, .into{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.news button:hover, .mission button:hover, .academic button:hover{
+    background-color: #7d0c1d;
+}
+
+.academic{
+    background-color: rgb(237, 237, 237);
+    margin-top: 87%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.aca img{
+    width: 100%;
+    margin-right: 100%;
+    height: auto; 
+}
+.academic .aca{
+    margin: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    width: 28%;
+    background-color: white;
+}
+
+.para{
+    background-color: #7d0c1d;
+    position: absolute;
+    margin-top: 286.5%;
+    width: 95%;
+    z-index: 3;
+    padding: 50px;
+    color: white;
+    display: flex;
+    gap: 5em;
+}
+.para .first table th, .para .first table td{
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.first table th,
+.first table td {
+    position: relative;
+    text-align: left;
+}
+.first table th:hover::after,
+.first table td:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    height: 1px;
+    width:87%;
+    background-color: white; 
+    transform: scaleX(0); 
+    transform-origin: left; 
+    transition: transform 0.3s ease; 
+}
+.first table th:hover::after,
+.first table td:hover::after {
+    transform: scaleX(1); 
+}
