@@ -1,9 +1,7 @@
 <h1 align="center">🎓 Nova University Website</h1>
 
 <p align="center"><i>
-A modern, mobile-friendly university website front-end. Crafted to showcase university features, admissions, and resources with a sleek UI. Ideal for web dev learners and as a reusable project template.
-
-A fully responsive and visually appealing university website built using HTML, CSS, and JavaScript. This project is ideal for showcasing an educational institution's courses, about section, contact information, and more.
+A modern, mobile-friendly university website front-end. Crafted to showcase university features, admissions, and resources with a sleek UI. Ideal for web dev learners and as a reusable project template. A fully responsive and visually appealing university website built using HTML, CSS, and JavaScript. This project is ideal for showcasing an educational institution's courses, about section, contact information, and more.
 </i></p>
 
 ---
@@ -37,7 +35,7 @@ No special dependencies are required. Any modern web browser is sufficient.
 3. **Open `index.html`:**  
    Open the `index.html` file in your web browser to view the website.
 
-4. **Link for the live website:** 
+4. **Link for the live website:**  [Nova University](https://kislaytinker.github.io/Nova-University-Website/)
 
 ## 📁 Project Structure
 
